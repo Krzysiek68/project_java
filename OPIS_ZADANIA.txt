@@ -1,0 +1,30 @@
+Klasy Ksiazki, Filmy, Plyty, Ebooki, Audiobooki dziedzicza po klasie Ogolne jej parametry i metode, posiadaja tez jeden parametr wlasny, inny dla kazdej z klas
+
+Klasa Uzytkownik zawiera metody uzywane w programie wywolywane przez obiekt tej klasy
+
+Klasa Start zawiera funkcje main.
+Funkcja main na poczatku tworzy po 2 obiekty z klas wyzej wymienionych Ksiazki, ... Audiobooki uzywajac ich konstruktorow i przypisuje im wartosci
+Nastepnie program pyta o dane uzytkownika, potem tworzy obiekt osoba klasy Uzytkownik i te dane mu przypisuje
+Nastepnie program dochodzi do petli do while - glowny element programu, dzialanie petli:
+
+Wyswietla menu metoda klasy Uzytkownik
+Prosi o podanie wartosci ktora potem podaje jako parametr instrukcji switch
+
+Jesli uzytkownik wpisze 7 program konczy petle i wyswietla koncowy napis
+
+Jesli uzytkownik wpisze 1 program wywoluje metode klasy Uzytkownik pokazDane ktora wyswietla informacje wpisane na poczatku programu
+
+Jesli uzytkownik wpisze 2 program wyswietla wszystkie egzemplarze dostepne w wypozyczalni wraz z ich numerami indeksu, po czy prosi o podanie wartosci by powrocic do menu
+
+Jesli uzytkownik wpisze 3 program wywoluje metode klasy Uzytkownik wypozycz ktora jesli uzytkownik nie zalega z oddaniem (czasWypozyczenia <= 2), 
+poczatkowo czasWypozyczenia = 0, wypozyczenie = 0, czasWypozyczenia zwieksza sie z kazdym cyklem petli do while jesli wypozyczenie > 0, 
+nastepnie prosi o numer indeksu egzemplarza po czym dodaje nazwe egzemplarza do tablicy string do indeksu i (poczatkowo i = 0), zwieksza indeks i;
+Jesli czasWypoyczenia >= 3 blokada wypozyczen, informacja o tym aby zwrocic egzemplarze i uregulowac oplaty
+
+Jesli uzytkownik wpisze 4 program wywoluje metode klasy Uzytkownik historia ktora wyswietla wszystkie elementy tablicy string czyli wszystkie wypozyczone egzemplarze,
+(te wypozyczone aktualnie)
+
+Jesli uzytkownik wpisze 5 program wywoluje metode klasy Uzytkownik zwrot ktora ustawia wartosc kazdego elementu tablicy na 0, ustawia zmienna i na 0 (na pierwszy element tablicy aby
+przy kolejnym przypisaniu zaczac od poczatku), ustawia wypozyczenie na 0 (jak zwraca egzemplarze to wszystkie odrazu), ustawia czasWypozyczenia na 0
+
+Jesli uzytkownik wpisze 6 program prosi o numer indeksu nastepnie wyswietla informacje o danym egzemplarzu przy pomocy metody klasy Ogolne (przez dziedziczenie)
