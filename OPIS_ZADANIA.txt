@@ -1,0 +1,39 @@
+Program zawiera dwie klasy realizujące sortowania bąbelkowe i kubełkowe. Jeden interfejs Sortable. 
+I klasę Start w której jest funkcja main.
+
+Interfejs Sortable zawiera metode sort zwracającą tablice int i pobierającą tablice int, i metodę step_counter zwracającą typ double.
+
+Funkcja main w klasie Start:
+
+tworzy tablice i inicjalizuje ją 200 losowymi wartościami całkowitymi zakres 0-100
+pyta użytkownika jakiego sortowania użyć
+1 - tworzy obiekt klasy Babelkowe, przypisuje go obiektowi sortowanie z interfejsu Sortable, 
+po czym wywołuje obiektem sortowanie metode sort klasy Babelkowe pobierającą tablice 200 wartosci
+2 - tworzy obiekt klasy Kubelkowe, przypisuje go obiektowi sortowanie z interfejsu Sortable, 
+po czym wywołuje obiektem sortowanie metode sort klasy Kubelkowe pobierającą tablice 200 wartosci
+
+Klasa Babelkowe:
+
+implementuje interfejs Sortable
+tworzy zmienna ilosc zliczajaca liczbe krokow sortowania
+
+tworzy definicje metody step_counter - inkrementuje zmienna ilosc
+
+tworzy definicje metody sort - pobiera tablice, tworzy jedna zmienna uzywana jako warunku petli while, 
+tworzy druga zmienna uzywana do przechowania tymczasowej wartosci, porownuje instrukcja if kolejne elementy tablicy,
+po czym zwieksza ilosc krokow wywolujac metode step_counting za kazdym porownaniem
+
+po posortowaniu wszystkich elementow wyswietla za pomoca petli for wszystkie elementy tablicy i ilosc porownan
+
+Klasa Kubelkowe:
+
+implementuje interfejs Sortable
+tworzy zmienna ilosc zliczajaca liczbe krokow sortowania
+
+tworzy definicje metody step_counter - inkrementuje zmienna ilosc
+
+tworzy definicje metody sort - tworzy nowa tablice bucket na tyle różnych elementow ile jest w tablicy tab (zakres losowych liczb tablicy ustawilem na 0-100),
+przypisuje do każdego elementu tablicy bucket wszystkie elementy tablicy tab o tej samej wartości, zwiekszajac przy kazdym przypisaniu zmienna ilosc metoda step_counting, 
+nastepnie przy pomocy petli zagnieżdżonej przypisuje zmiennej tab wartości posortowane, zwiększając przy tym po każdym przypisaniu zmienną ilość przy pomocy metody step_counting
+
+po posortowaniu wszystkich elementow wyswietla za pomoca petli for wszystkie elementy tablicy i ilosc porownan
