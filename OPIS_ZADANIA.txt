@@ -1,0 +1,3 @@
+Program w petli prosi o podawanie Stringow, nastepnie konwertuje je na wartosc int metodą Integer.parseInt(),
+jesli podamy znak nie bedący liczbą, program zasygnalizuje wyjątek NumberFormatException i przejdzie do bloku catch,
+jeśli podamy k program wychodzi z petli while i konczy działanie.
