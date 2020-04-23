@@ -1,0 +1,8 @@
+Program tworzy tablice 5 elementow typu int, nastepnie prosi o wprowadzanie kazdego elementu po kolei.
+Jesli podamy nie liczbe metoda Integer.parseInt() zwroci wyjatek NumberFormatException i wyswietli komunikat o bledzie.
+Mozna kontynuowac wprowadzanie od blednie podanego elementu. 
+
+Po podaniu wszystkich elementow program prosi o podanie numeru indeksu elementu ktory ma wyswietlic.
+Jesli podamy nie liczbe metoda Integer.parseInt() zwroci wyjatek NumberFormatException i wyswietli komunikat o bledzie.
+Jesli podamy numer poza zasiegiem tablicy program zwroci wyjatek ArrayIndexOutOfBoundsException i wyswietli komunikat o bledzie.
+Po czym konczy dzialanie.
