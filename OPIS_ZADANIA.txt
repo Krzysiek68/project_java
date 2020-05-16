@@ -1,0 +1,6 @@
+Klasa Start zawiera funkcje main która tworzy tablice 6 elementow po czym tworzy obiekt Start, wywoluje nim metode 
+tablica, ktora sprawdza czy w tablicy wystepuje ciag 1, 2, 3, zwraca true jesli tak jest, po czym main wypisuje odpowiedni komunikat
+
+Klasa StartTest przeprowadza test przy pomocy asseracji assertEquals ktora pobiera spodziewany wynik i obiekt wywolujacy metode
+tablica.
+Program przeprowadza dwa testy jeden sprawdzajacy tablice w ktorej jest ciag 1,2,3 i drugi w ktorym ciag taki nie wystepuje.
