@@ -1,0 +1,5 @@
+Klasa Start zawiera funkcje main która tworzy tablice int, wyświetla ją, po czym wywołuje funkcje odwracającą tablice 
+i przypisuje odwróconą tablice do nowej zmiennej po czym wyświetla ją.
+Klasa StartTest przeprowadza test przy pomocy asseracji assertArrayEquals ktora pobiera spodziewaną tablicę i obiekt wywolujacy metode
+tablicaNaOdwrot zwracający odwróconą tablice.
+Program przeprowadza dwa testy jeden sprawdzajacy tablice z roznymi elementami, drugi sprawdzajacy tablice z tymi samymi elementami.
