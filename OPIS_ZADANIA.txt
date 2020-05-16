@@ -1,0 +1,10 @@
+Klasa Temperature zawiera funkcje main która pyta uzytkownika o dwie temoeratury po czym tworzy obiekt Temperature, wywoluje nim metode 
+lessThanHundred ktora sprawdza czy obie temperatury sa powyzej 100, zwraca true jesli są, po czym main wypisuje odpowiedni komunikat
+
+Klasa TemperatureTest przeprowadza test przy pomocy asseracji assertEquals ktora pobiera spodziewany wynik i obiekt wywolujacy metode
+lessThanHundred.
+Program przeprowadza 4 testy.
+Pierwszy gdy obie liczby ponizej 100.
+Drugi gdy obie liczby powyzej 100.
+Trzeci gdy tylko pierwsza liczba powyzej 100.
+Czwarty gdy tylko druga liczba powyzej 100.
