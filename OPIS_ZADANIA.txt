@@ -1,0 +1,5 @@
+Klasa Start zawiera funkcje main która tworzy obiekt String, wyświetla go, po czym wywołuje funkcje zwracającą połowe tego Stringa 
+i go wyświetla 
+Klasa StartTest przeprowadza test przy pomocy asseracji assertEquals ktora pobiera spodziewany obiekt String i obiekt wywolujacy metode
+halfString zwracający połowe Stringa pobieranego (jeśli długość obiektu jest nieparzysta funkcja zwróci krótszą część).
+Program przeprowadza dwa testy jeden sprawdzajacy slowo parzyste, drugi nieparzyste.
